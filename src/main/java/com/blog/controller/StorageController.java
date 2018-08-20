@@ -1,4 +1,4 @@
-package com.toptal.blog.controller;
+package com.blog.controller;
 
 import java.io.IOException;
 
@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.toptal.blog.service.StorageService;
+import com.blog.service.StorageService;
 
 @RestController
 @RequestMapping(value = "/api/storage")

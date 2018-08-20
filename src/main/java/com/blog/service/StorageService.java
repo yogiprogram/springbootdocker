@@ -1,4 +1,4 @@
-package com.toptal.blog.service;
+package com.blog.service;
 
 import java.io.File;
 import java.io.FileOutputStream;

@@ -1,4 +1,4 @@
-package com.toptal.blog;
+package com.blog;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
