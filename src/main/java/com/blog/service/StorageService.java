@@ -36,6 +36,10 @@ public class StorageService {
 
 	@PostConstruct
 	public void init() {
+		awsSecretKey = awsSecretKey.replace("__tt__", "");
+		awsAccessKeyId = awsAccessKeyId.replace("__tt__", "");
+		System.out.println("awsSecretKey : "+awsSecretKey);
+		System.out.println("awsAccessKeyId : "+awsAccessKeyId);
 		credentials = new BasicAWSCredentials(awsAccessKeyId, awsSecretKey);
 		s3client = new AmazonS3Client(credentials);
 	}
